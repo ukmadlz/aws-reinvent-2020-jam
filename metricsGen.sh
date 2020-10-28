@@ -5,7 +5,7 @@ BLOCKS=35000000
 RAND=$(shuf -i 1-10 -n 1)
 
 # How many times it'll run
-COUNTEDBLOCKS=$(( $BLOCKS*$RAND ))
+COUNTEDBLOCKS=$(( $BLOCKS ))
 echo "Process count: " $COUNTEDBLOCKS
 
 # Blast the CPU
